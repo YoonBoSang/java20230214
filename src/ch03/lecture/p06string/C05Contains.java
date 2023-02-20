@@ -11,6 +11,7 @@ public class C05Contains {
 				마르고 닳도록
 				""";
 		
+		
 		boolean res1 = str1.contains("해물");
 		System.out.println(res1);
 		
