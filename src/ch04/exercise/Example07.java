@@ -17,19 +17,22 @@ public class Example07 {
 			String num = scanner.nextLine();
 			
 			if (num.equals("1")) {
-//				System.out.print("예금액>10000");
 				System.out.print("예금액>");
 				String money = scanner.nextLine();
 				balance += Integer.parseInt(money);
 				System.out.println();
 			} else if (num.equals("2")) {
-//				System.out.print("출금액>2000");
 				System.out.print("출금액>");
 				String money = scanner.nextLine();
 				balance -= Integer.parseInt(money);
+				if(balance < 0) {
+					balance += Integer.parseInt(money);
+					System.out.println("잔액이 부족합니다.");
+					System.out.println("선택 화면으로 돌아갑니다.");
+					continue;
+				}
 				System.out.println();
 			} else if (num.equals("3")) {
-//				System.out.print("잔고>8000");
 				System.out.print("잔고>" + balance);
 				System.out.println();
 			} else if (num.equals("4")) {
