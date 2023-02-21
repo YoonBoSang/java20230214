@@ -29,7 +29,7 @@ public class C07Switch {
 		case 1, 3 -> "남자";
 		case 2, 4 -> "여자";
 		default -> "잘못입력";
-		}
+		};
 		}
 	}
 }
