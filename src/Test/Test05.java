@@ -1,6 +1,6 @@
 package Test;
 
-public class Test5 {
+public class Test05 {
 	public static void main(String[] args) {
 		String grade = "B";
 		

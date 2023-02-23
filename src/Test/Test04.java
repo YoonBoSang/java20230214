@@ -1,3 +1,4 @@
+package Test;
 class Solution {
     public int[] solution(int numer1, int denom1, int numer2, int denom2) {
        int num1 = denom1 * denom2;

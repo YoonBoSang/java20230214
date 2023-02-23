@@ -2,7 +2,7 @@ package Test;
 
 import java.util.Scanner;
 
-public class Test1 {
+public class Test01 {
 	public static void main(String[] args) {
 		String input = """
 				23 40

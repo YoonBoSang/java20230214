@@ -1,6 +1,6 @@
 package Test;
 
-public class Test2 {
+public class Test02 {
 	public static void main(String[] args) {
 		 max mm = new max();
 		 long result = mm.higher(3, 5);

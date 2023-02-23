@@ -2,7 +2,7 @@ package Test;
 
 import java.util.Arrays;
 
-public class Test6 {
+public class Test06 {
 	public static void main(String[] args) {
 		int n = 10;
 		String sum = "";
@@ -12,7 +12,7 @@ public class Test6 {
              }
         sum1 = "[" + sum + "]";
         int sum2 = Integer.parseInt(sum1);
-        return sum1;
+//        return sum1;
         }    
         }    
     
