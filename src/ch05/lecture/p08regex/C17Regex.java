@@ -20,8 +20,5 @@ public class C17Regex {
 //		System.out.println(i);
 		
 //		int a = 1234
-		String a = String.va"1234";
-		int i = Integer.parseInt(a);
-		System.out.println(i);
 	}
 }
