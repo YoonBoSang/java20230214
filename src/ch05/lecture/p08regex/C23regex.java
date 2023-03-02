@@ -21,5 +21,9 @@ public class C23regex {
 		System.out.println("daum.com".matches(pattern3));
 		System.out.println("daum.net".matches(pattern3));
 		System.out.println("daumcom".matches(pattern3));
+		
+		if(".".matches(pattern1)) {
+			System.out.println("a");
+		}
 	}
 }
