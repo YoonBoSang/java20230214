@@ -7,6 +7,11 @@ public class Member {
 	private int age = 21;
 	private boolean married;
 	
+	public Member(String name, String id) {
+		this.name = name;
+		this.id = id;
+	}
+	
 	public boolean isMarried() {
 		return married;
 	}
