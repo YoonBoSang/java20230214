@@ -1,4 +1,4 @@
-package Test;
+package ch05.lecture.p08regex;
 
 public class C24Regex {
 	public static void main(String[] args) {

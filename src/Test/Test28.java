@@ -1,3 +1,5 @@
+package Test;
+
 public class Test28 {
 	public static void main(String[] args) {
 		
