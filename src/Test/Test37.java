@@ -10,7 +10,6 @@ public class Test37 {
             if(arr1[i].equals("Z")) {
                 arr1[i] = "";
                 arr1[i-1] = "";
-                
             }
         }
         if(str1.equals("")) {
