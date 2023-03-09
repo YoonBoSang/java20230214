@@ -48,11 +48,11 @@ public class Test44 {
 		for (int i = 0; i < score.length; i++) {
 			answer[i] = arr1[i][1] + 1;
 		}
-		System.out.println(arr1[4][1]);
-		System.out.println(arr1[3][1]);
+//		System.out.println(arr1[4][1]);
+//		System.out.println(arr1[3][1]);
 //		for (int i = 0; i < score.length; i++) {
 //			answer[i] = arr[i][1] + 1;
 //		}
-		System.out.println(Arrays.toString(answer));
+//		System.out.println(Arrays.toString(answer));
 	}
 }
