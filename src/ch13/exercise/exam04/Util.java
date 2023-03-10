@@ -1,14 +1,14 @@
 package ch13.exercise.exam04;
 
-public class Util<K, V> extends ChildPair<K, V> {
+public class Util{
 
-	public Util(K k, V v) {
-		super(k, v);
-		// TODO Auto-generated constructor stub
-	}
-
-	public static Integer getValue(Pair<String, Integer> pair, String string) {
-		// TODO Auto-generated method stub
+	public static <P extends Pair<K, V>, K, V> V getValue(P pair, K key) {
+		K k = pair.getKey();
+		
+		if (k.equals(key)) {
+			return pair.getValue();
+		}
+		
 		return null;
 	}
 
