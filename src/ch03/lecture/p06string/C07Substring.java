@@ -20,11 +20,10 @@ public class C07Substring {
 		System.out.println(str1.substring(8));
 			
 		//파라미터가 인덱스를 벗어나면 오류
-		String str2 = "java";
+		String str2 = "java ";
 		System.out.println(str2.substring(2, 4));
 //		System.out.println(str2.substring(2, 5));
 		
-		
-		
+		System.out.println(str2.substring(1, 2).toUpperCase());
 	}
 }
